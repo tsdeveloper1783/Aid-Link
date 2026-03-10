@@ -1,0 +1,153 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?cc72040e18a942c153a1639dcda53430") format("truetype"),
+url("./flaticon.woff?cc72040e18a942c153a1639dcda53430") format("woff"),
+url("./flaticon.woff2?cc72040e18a942c153a1639dcda53430") format("woff2"),
+url("./flaticon.eot?cc72040e18a942c153a1639dcda53430#iefix") format("embedded-opentype"),
+url("./flaticon.svg?cc72040e18a942c153a1639dcda53430#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "donation": "\f101",
+    "phone": "\f102",
+    "star": "\f103",
+    "fruit": "\f104",
+    "medicine": "\f105",
+    "education": "\f106",
+    "house": "\f107",
+    "quote": "\f108",
+    "charity": "\f109",
+    "volunteer": "\f10a",
+    "debit-card": "\f10b",
+    "solidarity": "\f10c",
+    "nature": "\f10d",
+    "agronomy": "\f10e",
+    "wind-energy": "\f10f",
+    "recycling": "\f110",
+    "container": "\f111",
+    "ocean": "\f112",
+    "forest": "\f113",
+    "polar-bear": "\f114",
+    "igloo": "\f115",
+    "planet-earth": "\f116",
+    "environment": "\f117",
+    "ecological": "\f118",
+    "forest-1": "\f119",
+    "quotes": "\f11a",
+    "quote-1": "\f11b",
+    "question": "\f11c",
+    "solidarity-1": "\f11d",
+    "help": "\f11e",
+    "map": "\f11f",
+    "envelope": "\f120",
+);
+
+.flaticon-donation:before {
+    content: map-get($flaticon-map, "donation");
+}
+.flaticon-phone:before {
+    content: map-get($flaticon-map, "phone");
+}
+.flaticon-star:before {
+    content: map-get($flaticon-map, "star");
+}
+.flaticon-fruit:before {
+    content: map-get($flaticon-map, "fruit");
+}
+.flaticon-medicine:before {
+    content: map-get($flaticon-map, "medicine");
+}
+.flaticon-education:before {
+    content: map-get($flaticon-map, "education");
+}
+.flaticon-house:before {
+    content: map-get($flaticon-map, "house");
+}
+.flaticon-quote:before {
+    content: map-get($flaticon-map, "quote");
+}
+.flaticon-charity:before {
+    content: map-get($flaticon-map, "charity");
+}
+.flaticon-volunteer:before {
+    content: map-get($flaticon-map, "volunteer");
+}
+.flaticon-debit-card:before {
+    content: map-get($flaticon-map, "debit-card");
+}
+.flaticon-solidarity:before {
+    content: map-get($flaticon-map, "solidarity");
+}
+.flaticon-nature:before {
+    content: map-get($flaticon-map, "nature");
+}
+.flaticon-agronomy:before {
+    content: map-get($flaticon-map, "agronomy");
+}
+.flaticon-wind-energy:before {
+    content: map-get($flaticon-map, "wind-energy");
+}
+.flaticon-recycling:before {
+    content: map-get($flaticon-map, "recycling");
+}
+.flaticon-container:before {
+    content: map-get($flaticon-map, "container");
+}
+.flaticon-ocean:before {
+    content: map-get($flaticon-map, "ocean");
+}
+.flaticon-forest:before {
+    content: map-get($flaticon-map, "forest");
+}
+.flaticon-polar-bear:before {
+    content: map-get($flaticon-map, "polar-bear");
+}
+.flaticon-igloo:before {
+    content: map-get($flaticon-map, "igloo");
+}
+.flaticon-planet-earth:before {
+    content: map-get($flaticon-map, "planet-earth");
+}
+.flaticon-environment:before {
+    content: map-get($flaticon-map, "environment");
+}
+.flaticon-ecological:before {
+    content: map-get($flaticon-map, "ecological");
+}
+.flaticon-forest-1:before {
+    content: map-get($flaticon-map, "forest-1");
+}
+.flaticon-quotes:before {
+    content: map-get($flaticon-map, "quotes");
+}
+.flaticon-quote-1:before {
+    content: map-get($flaticon-map, "quote-1");
+}
+.flaticon-question:before {
+    content: map-get($flaticon-map, "question");
+}
+.flaticon-solidarity-1:before {
+    content: map-get($flaticon-map, "solidarity-1");
+}
+.flaticon-help:before {
+    content: map-get($flaticon-map, "help");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-envelope:before {
+    content: map-get($flaticon-map, "envelope");
+}

@@ -1,0 +1,8 @@
+New contact message:
+
+Name: {{ message.name }}
+Email: {{ message.email }}
+Message:
+{{ message.message }}
+
+-- End

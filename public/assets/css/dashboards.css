@@ -1,0 +1,741 @@
+/* ----------------------------- Dashboards' CSS ----------------------------- */
+
+/* ----------------------------- Donor Dashboard----------------------------- */
+
+:root {
+	--primary_font: 'Roboto', sans-serif;
+	--secondary_font: 'Inter', sans-serif;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	font-family: var(--primary_font);
+	color: var(--theme-gray-color);
+	-webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	position: relative;
+	font-weight: 700;
+	font-family: var(--primary_font);
+	margin: 0;
+}
+
+.col-md-10 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+.sidebar-container {
+  background-color: #90be54;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar-link {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  background: transparent;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.sidebar-link i {
+  margin-right: 8px;
+}
+
+.sidebar-container p {
+  padding: 10px 15px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.topbar {
+  width: 100%;
+  padding: 18px 15px;
+  background-color: #fdfffa;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.icon-btn {
+  color: #90be54;
+  background: #f8f9fa;
+  padding: 4px 9px;
+}
+
+.icon-btn:hover {
+  color: white;
+  background: #90be54;
+}
+
+/* profile pic*/
+.profile-pic {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border: 2px solid #90be54;
+}
+
+/* Card Styling */
+.recipient-card {
+  border-radius: 12px;
+}
+
+.progress {
+  height: 6px;
+}
+
+.card {
+  border-radius: 9px;
+}
+
+.recipient-card {
+  transition: box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.recipient-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Glassy Card with Smooth Elevation */
+.recipient-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.recipient-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Profile Image */
+.recipient-card img {
+  border: 3px solid #90be54;
+}
+
+/* Progress Bar */
+.progress {
+  height: 10px;
+}
+
+.bg2_success {
+  background: #e4f5dd;
+}
+
+.text2_success {
+  color: #388e3c;
+}
+
+/* Category Badge */
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  box-shadow: 0 1px 4px rgba(25, 135, 84, 0.15);
+}
+
+.view-profile-btn {
+  color: #90be54;
+  border: 1px solid #90be54;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.view-profile-btn:hover {
+  background-color: #90be54;
+  color: #ffffff;
+  text-decoration: none;
+  transform: scale(1.03);
+}
+
+
+/* Profile Page */
+
+.profile-icon {
+  background: #90be54;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.badge-verified {
+  background-color: #90be54;
+  font-size: 0.75rem;
+}
+
+
+.badge-role {
+  background-color: #90be54;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-left: 5px solid #90be54;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+.icon-text {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.btn-pf-primary {
+  color: white;
+  background-color: #90be54;
+  border: 1px solid #90be54;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn-pf-primary:hover {
+  color: #90be54;
+  background-color: #f8f9fa;
+  border: 1px solid #90be54;
+}
+
+.btn-pf-secondary {
+  color: #90be54;
+  background-color: #f8f9fa;
+  border: 1px solid #90be54;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn-pf-secondary:hover {
+  color: white;
+  background-color: #90be54;
+  border: none;
+}
+
+a.document-link {
+  color: #90be54;
+  text-decoration: none;
+}
+
+a.document-link:hover {
+  text-decoration: underline;
+}
+
+.progress {
+  height: 12px;
+  background-color: #e2eed3;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #90be54;
+}
+
+.text_success {
+  color: #90be54;
+}
+
+
+/* My Donations........ */
+.summary-card {
+  background: linear-gradient(to right, #e7f4dc, #f6fdf0);
+  border: 1px solid #d4eac0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(144, 190, 84, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(144, 190, 84, 0.15);
+}
+
+.summary-card p {
+  margin: 0;
+  font-weight: 600;
+  color: #7aa43c;
+  font-size: 0.95rem;
+}
+
+.summary-card h5 {
+  font-size: 1.4rem;
+  margin-top: 6px;
+  color: #2e3b3e;
+}
+
+.donation-card {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  border-left: 6px solid #90be54;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.donation-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transform: scale(1.01);
+}
+
+.donation-card h6 {
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+.donation-card p {
+  margin: 0 0 6px;
+  font-size: 0.93rem;
+  color: #555;
+}
+
+.donation-card strong {
+  color: #2e3b3e;
+}
+
+.donation-card .btn {
+  font-weight: 600;
+  font-size: 0.88rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.donation-card .btn:hover {
+  background-color: #90be54;
+  color: white;
+  border-color: #90be54;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.badge.btn_success {
+  background-color: #e4f5dd;
+  color: #388e3c;
+  border-radius: 0%;
+}
+
+.badge.bg_warning {
+  background-color: #fff4ce;
+  color: #d6c071;
+  border-radius: 0%;
+}
+
+input.form-control,
+select.form-select {
+  border-radius: 8px;
+  border: 1px solid #d0d8cd;
+  font-size: 0.92rem;
+}
+
+input.form-control:focus,
+select.form-select:focus {
+  box-shadow: 0 0 0 0.2rem rgba(144, 190, 84, 0.25);
+  border-color: #90be54;
+}
+
+.btn-outline-success {
+  border-color: #90be54;
+  color: #90be54;
+}
+
+.btn-outline-success:hover {
+  background-color: #90be54;
+  color: white;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+/* Settings */
+
+/* profile */
+.tab_nav button {
+  color: #90be54;
+}
+
+.tab_nav button:hover {
+  background-color: #90be54;
+  color: white;
+}
+
+
+/* inbox-main page */
+.inbox-wrapper {
+  background-color: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar-section {
+  background-color: #f1f4f9;
+  overflow-y: auto;
+}
+
+.chat-section {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chat-messages {
+  background-color: #f9f9f9;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  flex-grow: 1;
+  color: #888;
+  font-size: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.contacts .contact {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.contacts .contact:hover,
+.contacts .contact.active {
+  background-color: #e1e7f0;
+}
+
+.contacts .contact img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.message {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  word-break: break-word;
+  font-size: 1rem;
+}
+
+.message.incoming {
+  background-color: #e0e0e0;
+  color: #333;
+  align-self: flex-start;
+}
+
+.message.outgoing {
+  background-color: #90be54;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.img-thumbnail {
+  max-width: 150px;
+  border-radius: 10px;
+  border: none;
+}
+
+.chat-input {
+  background-color: #ffffff;
+}
+
+.chat-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.chat-header .btn {
+  border-radius: 50%;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.chat-header .btn i {
+  vertical-align: middle;
+}
+
+.placeholder-message {
+  font-size: 1.2rem;
+  color: #999;
+  text-align: center;
+}
+
+.chat-input {
+  transition: all 0.3s ease;
+}
+
+
+/* recipient Dashboard css */
+
+.recipient-pics img {
+  border: 2px solid #90be54;
+}
+
+.donor-profile-img img {
+  border: 3px solid #90be54;
+}
+
+
+.donor-list-btn {
+  color: #90be54;
+  border: 1px solid #90be54;
+}
+
+.donor-list-btn:hover {
+  background: #90be54;
+  color: white;
+}
+
+.donor-list-btn-2 {
+  background: #90be54;
+  color: white;
+}
+
+.donor-list-btn-2:hover {
+  color: #90be54;
+  border: 1px solid #90be54;
+}
+
+.profile-pg-pic {
+  border: 3px solid #90be54;
+  width: 110px;
+  height: 110px;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.form-control, textarea {
+  background: transparent;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Notification Section */
+.custom-checkbox:checked {
+  background-color: #90be54;
+  border-color: #90be54;
+}
+
+.custom-checkbox:focus {
+  box-shadow: 0 0 0 0.2rem rgba(144, 190, 84, 0.4);
+}
+
+/* Optional: Heading style */
+.section-title {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    z-index: 1050;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .sidebar.show {
+    left: 0;
+  }
+
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1049;
+    display: none;
+  }
+
+  .sidebar-overlay.active {
+    display: block;
+  }
+
+  body.sidebar-open {
+    overflow: hidden;
+  }
+}
+
+/* Topbar Search and Icons Spacing */
+@media (max-width: 576px) {
+  .topbar-icons {
+    flex-wrap: wrap;
+    gap: 0.5rem !important;
+  }
+
+  .topbar-icons input {
+    width: 100%;
+  }
+
+  .topbar {
+  width: 100vw;
+  padding: 10px 15px;
+  background-color: #fdfffa;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+  z-index: 10;
+}
+
+}
+
+/* Profile Page */
+@media (max-width: 576px) {
+  .text-md-end {
+    text-align: start !important;
+    margin-top: 1rem;
+  }
+
+  .profile-icon {
+    margin-bottom: 1rem;
+  }
+}
+
+/* My Donations */
+@media (max-width: 576px) {
+
+  .summary-card,
+  .donation-card {
+    padding: 12px;
+  }
+
+  .btn-sm {
+    font-size: 13px;
+  }
+}
+
+/* profile pic*/
+@media (max-width: 576px) {
+  .profile-pic {
+    width: 30px;
+    height: 30px;
+  }
+
+  .username {
+    font-size: 12px;
+  }
+}
+
+/* inbox main  */
+@media (max-width: 768px) {
+  .chat-wrapper {
+    flex-direction: column;
+  }
+
+  .chat-sidebar {
+    width: 100%;
+    height: 200px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .chat-sidebar .user {
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #eee;
+    border-bottom: none;
+  }
+
+  .chat-sidebar .user img {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+
+
+/* Responsive sidebar */
+#sidebarMenu {
+  z-index: 1050;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  #sidebarMenu {
+    transform: translateX(-100%);
+    display: block !important;
+  }
+
+  #sidebarMenu.show {
+    transform: translateX(0);
+  }
+
+  .content {
+    margin-left: 0 !important;
+  }
+}
+
+
+
+

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?cc72040e18a942c153a1639dcda53430") format("truetype"),
+url("../fonts/flaticon.woff?cc72040e18a942c153a1639dcda53430") format("woff"),
+url("../fonts/flaticon.woff2?cc72040e18a942c153a1639dcda53430") format("woff2"),
+url("../fonts/flaticon.eot?cc72040e18a942c153a1639dcda53430#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?cc72040e18a942c153a1639dcda53430#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-donation:before {
+    content: "\f101";
+}
+.flaticon-phone:before {
+    content: "\f102";
+}
+.flaticon-star:before {
+    content: "\f103";
+}
+.flaticon-fruit:before {
+    content: "\f104";
+}
+.flaticon-medicine:before {
+    content: "\f105";
+}
+.flaticon-education:before {
+    content: "\f106";
+}
+.flaticon-house:before {
+    content: "\f107";
+}
+.flaticon-quote:before {
+    content: "\f108";
+}
+.flaticon-charity:before {
+    content: "\f109";
+}
+.flaticon-volunteer:before {
+    content: "\f10a";
+}
+.flaticon-debit-card:before {
+    content: "\f10b";
+}
+.flaticon-solidarity:before {
+    content: "\f10c";
+}
+.flaticon-nature:before {
+    content: "\f10d";
+}
+.flaticon-agronomy:before {
+    content: "\f10e";
+}
+.flaticon-wind-energy:before {
+    content: "\f10f";
+}
+.flaticon-recycling:before {
+    content: "\f110";
+}
+.flaticon-container:before {
+    content: "\f111";
+}
+.flaticon-ocean:before {
+    content: "\f112";
+}
+.flaticon-forest:before {
+    content: "\f113";
+}
+.flaticon-polar-bear:before {
+    content: "\f114";
+}
+.flaticon-igloo:before {
+    content: "\f115";
+}
+.flaticon-planet-earth:before {
+    content: "\f116";
+}
+.flaticon-environment:before {
+    content: "\f117";
+}
+.flaticon-ecological:before {
+    content: "\f118";
+}
+.flaticon-forest-1:before {
+    content: "\f119";
+}
+.flaticon-quotes:before {
+    content: "\f11a";
+}
+.flaticon-quote-1:before {
+    content: "\f11b";
+}
+.flaticon-question:before {
+    content: "\f11c";
+}
+.flaticon-solidarity-1:before {
+    content: "\f11d";
+}
+.flaticon-help:before {
+    content: "\f11e";
+}
+.flaticon-map:before {
+    content: "\f11f";
+}
+.flaticon-envelope:before {
+    content: "\f120";
+}

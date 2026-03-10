@@ -1,0 +1,10 @@
+Hi {{ user.username }},
+
+Thank you for your donation of {{ amount }}.
+Donation ID: {{ donation.id }}
+Status: {{ donation.status }}
+
+We appreciate your support!
+
+Regards,
+Your Organization
